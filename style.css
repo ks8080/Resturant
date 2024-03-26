@@ -13,6 +13,12 @@ body {
     margin-top: 2%;
     display: flex;
     box-shadow: 8px 10px 4px gray;
+    animation : dance 10s
+}
+@ keyframe dance{
+    0%{
+    transform: rotat (-5 deg);
+    }
 }
 .tileComponent1{
    border: 1px solid green;
