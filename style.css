@@ -13,7 +13,8 @@ body {
     margin-top: 2%;
     display: flex;
     box-shadow: 8px 10px 4px gray;
-    animation : dance @ keyframe dance{
+    animation : dance 10s infinite;
+    @ keyframe dance{
     0%{transform: rotate (-5 deg)};
     10%{transform: rotate (-5 deg)};
     20%{transform: rotate (+5 deg)};
