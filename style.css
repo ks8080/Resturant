@@ -89,7 +89,7 @@ header{
 }
 @keyframes revolve{
     0%{margin-left:10%;
-    transform:translate(100deg);
+    transform:translate(10deg);
 10%{margin-left:10%;
     transform:translate(30deg);
 20%{margin-left:10%;
