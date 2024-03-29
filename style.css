@@ -85,18 +85,7 @@ header{
     margin-left: 43%;
     margin-top: 2%;
     position: absolute;
-    animation: revolve 10s infinite;
 }
-@keyframes revolve{
-    0%{margin-left:10%;
-    transform:translate(10deg);
-10%{margin-left:10%;
-    transform:translate(30deg);
-20%{margin-left:10%;
-    transform:translate(50deg);
-30%{margin-left:10%;
-    transform:translate(80deg);
-}  
 #dropdown{
     height: 100px;
     width: 50%;
