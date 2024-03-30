@@ -15,8 +15,8 @@ body {
     box-shadow: 8px 10px 4px gray;
 }
 .tileComponent1{
-   border: 1px solid green;
-   height: 100%;
+border: 1px solid green;
+height: 100%;
     width: 60%;
     background-color: green;
 } 
@@ -77,14 +77,57 @@ header{
 }
 
 #logo{
-    height: 140px;
-    width: 140px;
+    height: 110px;
+    width: 110px;
     background-color: white;
     border-radius: 50%;
-    font-size: 40px;
+    font-size: 30px;
     margin-left: 43%;
     margin-top: 2%;
     position: absolute;
+    animation: revolve 10s infinite;
+}
+
+@keyframes revolve{
+    10%{
+        margin-left: 2%;
+        transform: rotate(360deg);
+    }
+    20%{
+        margin-left: 10%;
+        transform: rotate(0deg);
+    }
+    30%{
+        margin-left:15%;
+        transform:rotate(360deg);
+    }
+}
+.banner-container{
+    float: right;
+    margin-top: 1%;
+    margin-right: 16%;
+}
+.pic-banner{
+    height: 180px;
+    width: 180px;
+    
+    border-radius: 50%;    
+    position: absolute;
+    animation: spin 10s infinite;
+}
+
+@keyframes spin{
+    0%{
+       
+        transform: rotate(0deg);
+    }
+    
+    
+    100%{
+       
+        transform: rotate(360deg);
+    }
+    
 }
 #dropdown{
     height: 100px;
@@ -139,7 +182,7 @@ footer{
     margin-right: 13px;
 }
 .slogo{
-     width: 50px;
+    width: 50px;
 }
 
 @media screen and (max-width:989px){
@@ -165,7 +208,7 @@ footer{
     }
 }
     
-           
+        
     
 
     @media screen and (max-width:390px){
