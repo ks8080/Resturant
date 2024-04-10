@@ -191,9 +191,12 @@ footer{
     width: 50px;
 }
 
-@media screen and (max-width:989px){
+@media screen and (max-width:980px){
     body{
         background-color:blanchedalmond;
+                .TileContainer{
+                    width:100%;
+                }
     }
 }
 /*1101-1400*/
